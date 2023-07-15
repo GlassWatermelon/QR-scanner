@@ -6,17 +6,39 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.4/html5-qrcode.min.js" integrity="sha512-k/KAe4Yff9EUdYI5/IAHlwUswqeipP+Cp5qnrsUjTPCgl51La2/JhyyjNciztD7mWNKLSXci48m7cctATKfLlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-   <script defer src="app.js"></script>
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600&display=swap');
+    </style>
    <link rel="stylesheet" href="style.css">
    <title>Document</title>
 </head>
 <body>
+   <header class="header">
+      <div class="logo-container">
+         <img src="source/images/cru_logo.png" alt="">
+      </div>
+      <ul class="list-nav">
+         <li>Voluntario</li>
+         <li>Staff</li>
+      </ul>
+   </header>
+   <div class="line"></div>
    <main>
+      <div class="border-box">
+         <div class="container-security">
+            <input type="text" class="password" placeholder="contraseña">
+            <button class="security-btn">Abrir escaner</button>
+         </div>
+      </div>
       <section class="qr-scanner-container">
          <div id="reader"></div>
          <div id="result"></div>
       </section>
    </main>
-   
+   <footer>
+      <img class="footer-pattern" src="source/images/wave-haikei yellow.png" alt="">
+   <div class="continue-pattern"></div>
+   </footer>
+   <script src="app.js"></script>
 </body>
 </html>
