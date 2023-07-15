@@ -143,7 +143,7 @@ body {
 #reader {
     border: 5px solid black !important;
     border-radius: 10px !important;
-/*     width: 90vw; */
+    width: 90vw;
 }
 
 #result {
