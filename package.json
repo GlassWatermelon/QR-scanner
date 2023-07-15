@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/GlassWatermelon/QR-scanner/issues"
   },
-  "homepage": "https://github.com/GlassWatermelon/QR-scanner#readme",
-  "dependencies": {
-    "html5-qrcode": "^2.3.8"
-  }
+  "homepage": "https://github.com/GlassWatermelon/QR-scanner#readme"
 }

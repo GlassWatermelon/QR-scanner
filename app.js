@@ -17,7 +17,7 @@ scanner.render(success, error);
 function success(result) {
     document.getElementById('result').innerHTML = `
         <h2>Exito!</h2>
-        <p>${result}</p>
+        <p><a href="${result}">${result}</a></p>
     `;
 
     scanner.clear();
