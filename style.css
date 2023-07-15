@@ -1,9 +1,10 @@
-main {
+.qr-scanner-container {
 display: flex;
 justify-content: center;
 align-items: center;
 }
 #reader {
+border: 5px solid black !important;
 width: 600px;
 }
 #result {
